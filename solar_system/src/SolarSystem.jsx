@@ -1,8 +1,21 @@
 import React from "react";
 import "./SolarSystem.css";
 
-export default function Solar_system() {
+export default function SolarSystem() {
   return (
+    <div>
+    
+    <div className="divNavBar">
+      <h1>Navbar</h1>
+      <nav className="NavBar">
+        <ul className="ulNavBar">
+          <li className="Home">Home</li>
+          <li className="About">About</li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
+    </div>
     <div className="relative h-screen w-screen overflow-hidden">
       {/* Solar System Background */}
       <div className="universe">
@@ -33,6 +46,7 @@ export default function Solar_system() {
           <div className="planet neptune" style={{ "--radius": "490px", "--size": "24px" }}></div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
