@@ -1,7 +1,7 @@
 import React from "react";
-import "./Solar_system.css";
+import "./SolarSystem.css";
 
-export default function SolarSystem() {
+export default function Solar_system() {
   return (
     <div className="relative h-screen w-screen overflow-hidden">
       {/* Solar System Background */}

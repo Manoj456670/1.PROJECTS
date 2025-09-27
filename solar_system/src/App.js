@@ -1,8 +1,8 @@
-import Solar_system from "./Solar_system";
-import './Solar_system.css';
+import SolarSystem from "./SolarSystem";
+import './SolarSystem.css';
 
 function App() {
-  return <Solar_system />;
+  return <SolarSystem />;
 }
 
 export default App;
